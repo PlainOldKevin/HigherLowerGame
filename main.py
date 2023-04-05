@@ -42,8 +42,9 @@ def choose_people(a, b, score):
 # Start game function
 def play():
 
-    # Print logo
+    # Print logo and prompt user
     print(art.logo)
+    print("Welcome to Higher-Lower! In this game, you must guess which of the two options has more Instagram followers!\n")
 
     # Generate random list choice
     personA = random.choice(data.game_data)
